@@ -1,0 +1,154 @@
+body {
+    font-family: "Orbitron", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+#main {
+    background-image: url("images/downtown.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    text-align: center;
+}
+.images {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 7px solid #333;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.images:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+#main-header {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 4px 4px 9px rgba(0, 0, 0, 0.7);
+}
+#welcome-message {
+    color: rgb(24, 255, 236);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 20px rgba(255, 255, 255, 0.918);
+}
+.detail-text {
+    color: white;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+#activites {
+    background: rgba(255, 223, 79, 0.753);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* allow children to wrap to next line */
+    justify-content: center; /* center the row of activity cards */
+    gap: 40px; /* space between cards */
+    padding: 30px;
+}
+#intro {
+    /* make the heading span the full width of the flex container
+       so it appears above the three activity items and can be centered */
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0 0 20px 0;
+    color: #333;
+}
+
+/* Activity card sizing and centering */
+.theme-park,
+.local-park,
+.city {
+    max-width: 300px;
+    flex: 0 0 300px; /* make all cards the same width */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* center image and text */
+    text-align: center;
+}
+
+/* Ensure all headings occupy the same amount of vertical space so
+   the paragraphs (.detail-text) start on the same line across cards */
+.theme-park h3,
+.local-park h3,
+.city h3 {
+    font-size: 1.25rem;
+    line-height: 1.2;
+    margin: 12px 0;
+    min-height: 2.6rem; /* reserve space for up to two lines of heading */
+}
+
+/* Normalize paragraph spacing so they align consistently */
+.detail-text {
+    color: white;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    margin: 0; /* remove default margins that can shift alignment */
+    padding-top: 6px;
+}
+.footer-image {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 15px;
+}
+
+/* New footer styling to center the title over the bio while keeping the image left */
+#site-footer {
+    background: #111;
+    color: #fff;
+}
+.footer-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+#footer-title {
+    margin: 0;
+    font-size: 1.6rem;
+    text-align: center;
+}
+#footer-content {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    align-items: flex-start;
+}
+.footer-image {
+    width: 160px;
+    height: 160px;
+    border-radius: 0; /* keep square */
+    flex-shrink: 0;
+}
+.footer-bio {
+    flex: 1;
+}
+#footer-text {
+    margin: 40px;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+@media (max-width: 720px) {
+    #footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-image {
+        width: 140px;
+        height: 140px;
+    }
+    .footer-bio { text-align: center; }
+}
