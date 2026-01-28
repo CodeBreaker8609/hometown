@@ -1,65 +1,74 @@
-# hometown
-**Orlando Love** is a single-page website built with **HTML** and **CSS**, dedicated to showcasing the charm and beauty of **Orlando, Florida** — my hometown for the past 32 years.   This project highlights Orlando’s most iconic attractions, its vibrant city life, and my personal connection to the place I call home.
-# 🌴 Orlando Love — The City Beautiful
+# Orlando Love – Hometown Showcase
 
-**Orlando Love** is a single-page website built with **HTML** and **CSS**, dedicated to showcasing the charm and beauty of **Orlando, Florida** — my hometown for the past 32 years.  
-This project highlights Orlando’s most iconic attractions, its vibrant city life, and my personal connection to the place I call home.
+🔗 **Live Demo:** *(Add your deployed link here — GitHub Pages or Netlify)*
 
----
-
-## 🏙️ Overview
-
-The site features a bold hero section with a photo of downtown Orlando, followed by a colorful layout that presents the top three activities to enjoy in the city — from exploring **Walt Disney World** to relaxing at **Lake Eola Park** and discovering **Downtown Orlando**.  
-
-The footer includes a short personal bio and image, adding a friendly, personal touch to the page.
+**Orlando Love** is a single-page website built with HTML and CSS that celebrates the charm and beauty of Orlando, Florida — your hometown for the past 32 years. This project highlights iconic attractions, vibrant city life, and personal perspectives that make Orlando “The City Beautiful.” :contentReference[oaicite:1]{index=1}
 
 ---
 
 ## ✨ Features
 
-- **Custom typography:** Using the Orbitron font for a futuristic, Florida-sunshine vibe.  
-- **Dynamic visuals:** Interactive hover effects on circular attraction images.  
-- **Responsive layout:** Flexbox ensures that sections adjust smoothly for smaller screens.  
-- **Personal story:** Includes a 32-year resident’s perspective on what makes Orlando special.  
-- **Color theme:** Bright yellows and aqua tones inspired by Florida sunshine and water.
+- Bold hero section featuring downtown Orlando  
+- Highlighted top attractions like Walt Disney World and Lake Eola Park  
+- Colorful, engaging layout inspired by Orlando’s sunshine and water  
+- Interactive hover effects on attraction images  
+- Personal footer with bio and photo  
 
 ---
 
-## 🧠 Tech Used
+## 🛠️ Tech Stack
 
-- HTML5 for structure and semantic layout  
-- CSS3 for styling, flexbox layout, and transitions  
-- Google Fonts (`Orbitron`) for typography  
-- Responsive design using media queries  
-
----
-
-## 💻 File Structure
-
-orlando-love/
-│
-├── index.html # Main webpage
-├── styles.css # Custom styling and layout rules
-├── images/ # Folder for all images used (castle, city, lake, etc.)
-│ ├── castle.jpg
-│ ├── lake-eola.jpg
-│ ├── city.jpg
-│ ├── downtown.jpg
-│ └── raevaun.jpg
-└── README.md # Project description (this file)
-
-yaml
-Copy code
+- **HTML5** for semantic structure  
+- **CSS3** for styling, responsive layout, and visual effects  
+- **Google Fonts** (Orbitron) for unique typography  
 
 ---
 
-## 🚀 How to View
+## 🖼️ Screenshots
 
-1. Clone or download the repository.  
-   ```bash
-   git clone https://github.com/codebreaker8609/hometown.git
-Open the project folder.
+### Desktop View
+*(Add an image here once you take screenshots)*  
+![Orlando Love Desktop](assets/images/hometown-desktop.png)
 
+### Mobile View
+*(Add a mobile screenshot)*  
+![Orlando Love Mobile](assets/images/hometown-mobile.png)
+
+---
+
+## 🚀 Local Preview
+
+To preview this project locally:
+
+```bash
+git clone https://github.com/CodeBreaker8609/hometown.git
+Open index.html in your browser to see the site.
+
+♿ Accessibility
+Uses semantic HTML tags (header, main, section, footer)
+
+Clear visual hierarchy and readable text
+
+Hover effects and responsive layout that adapts to smaller screens
+
+📚 What I Learned
+Applying Flexbox and CSS layout fundamentals
+
+Choosing a cohesive color palette and typography
+
+Structuring a single-page site for presentation and storytelling
+
+Balancing personal narrative with design principles
+
+🚧 Future Improvements
+Add a GitHub Pages live demo link here
+
+Improve mobile breakpoints for ultra-small screens
+
+Add subtle animations or transitions to enhance UX
+
+📄 License
+MIT License
 Launch index.html in your browser.
 
 👨‍💻 About the Creator
