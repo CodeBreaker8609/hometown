@@ -1,6 +1,6 @@
 # Orlando Love – Hometown Showcase
 
-🔗 **Live Demo:** *(Add your deployed link here — GitHub Pages or Netlify)*
+🔗 **Live Demo:** (https://codebreaker8609.github.io/hometown/)
 
 **Orlando Love** is a single-page website built with HTML and CSS that celebrates the charm and beauty of Orlando, Florida — your hometown for the past 32 years. This project highlights iconic attractions, vibrant city life, and personal perspectives that make Orlando “The City Beautiful.” :contentReference[oaicite:1]{index=1}
 
