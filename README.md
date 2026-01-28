@@ -32,7 +32,7 @@
 
 ### Mobile View
 *(Add a mobile screenshot)*  
-![Orlando Love Mobile](assets/images/hometown-mobile.png)
+![Orlando Love Mobile](images/hometown-mobile-screenshot.png)
 
 ---
 ## ♿ Accessibility
