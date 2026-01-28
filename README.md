@@ -28,7 +28,7 @@
 
 ### Desktop View
 *(Add an image here once you take screenshots)*  
-![Orlando Love Desktop](assets/images/hometown-desktop.png)
+![Orlando Love Desktop](images/hometown-desktop-screenshot.png)
 
 ### Mobile View
 *(Add a mobile screenshot)*  
